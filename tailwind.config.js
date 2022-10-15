@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // for Monteserrat font family
+      fontFamily: {
+        'montserrat': ['Montserrat'],
+        // 'lato': ['Lato'],
+        // 'garamond': ['Garamond']
+    }
+    },
   },
   plugins: [],
 }
