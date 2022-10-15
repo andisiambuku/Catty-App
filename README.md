@@ -30,4 +30,4 @@ git clone https://github.com/andisiambuku/Catty-App.git
 
 ## Copyright and License Information
 The API used is provided by [The Cat API](https://thecatapi.com)
-This project is free to use and does not contains any license.
+
