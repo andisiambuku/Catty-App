@@ -1,7 +1,7 @@
 # Catty App
 
 ## Description of The Project
-Catty App is a single page application created with React and Tailwind CSS. This is an app where cat lovers can view pictures of adorable cats and like their favorite.This application is ideal for any one who loves cats and finds the cute
+Catty App is a single page application created with React and Tailwind CSS. This is an app where cat lovers can view pictures of adorable cats and like their favorite.This application is ideal for any one who loves cats and finds them cute
 
 
 On the tech side of things this application is a learning point for using Axios to work with http requests.
