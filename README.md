@@ -10,7 +10,7 @@ On the tech side of things this application is a learning point for using Axios 
 Read on how the application came to be and the various technologies used to achieve it here: <Coming Soon>
  
 ## Link to Live Site:
-Take a look at it here: <Coming Soon>
+Take a look at it here: https://catty-app.vercel.app/
 
 
 ## Prerequisites
