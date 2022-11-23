@@ -3,7 +3,7 @@ import React from "react";
 function Footer(){
 return (
     <div>
-        <div className="bg-white text-center lg:text-left">
+        <div className="bg-white text-align:text-center lg:text-left">
         <div className="text-yellow-400 font-montserrat text-center p-4" >
                     Powered by  
                 <a className="font-montserrat text-yellow-400" href ="https://thecatapi.com/"> The Cat API</a>
