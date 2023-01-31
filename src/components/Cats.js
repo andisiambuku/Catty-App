@@ -5,11 +5,11 @@ const Cats = () => {
   const [cats, setCats] = useState([]);
   useEffect(() => {
     axios
-      .get('https://api.thecatapi.com/v1/images/search?limit=10')
+      .get('https://api.thecatapi.com/v1/images/search?limit=35&api_key=live_2iTYDHO3IIltr8nHV8DS3ERMdf6MaOD69XmHNtfw5GINuX5lXoHdJBBKzgXbR6lP')
       .then((response) => setCats(response.data))
       .catch((error) => console.log(error));
   }, []);
-  // space-y-1.5 p-10 h-96 w-96 flex justify-evenly
+  
   return (
     
     <div className= "max-w-7xl columns-5 mx-auto space-y-4">
@@ -25,4 +25,4 @@ const Cats = () => {
 };
 
 export default Cats;
-// rounded grid grid-cols-5 gap-2 content-evenly
+// https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=beng&api_key=REPLACE_ME
