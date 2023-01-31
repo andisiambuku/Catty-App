@@ -9,13 +9,20 @@ const Cats = () => {
       .then((response) => setCats(response.data))
       .catch((error) => console.log(error));
   }, []);
+  // space-y-1.5 p-10 h-96 w-96 flex justify-evenly
   return (
-    <div>
+    
+    <div className= "max-w-7xl columns-5 mx-auto space-y-4">
       {cats.map((cat) => (
-        <img key={cat.id} src={cat.url} alt="cat" />
+        <div key={cat.id} className="overflow-hidden rounded-md">
+          <img  src={cat.url} alt="cat" />
+        </div>
       ))}
     </div>
+    
+    
   );
 };
 
 export default Cats;
+// rounded grid grid-cols-5 gap-2 content-evenly
