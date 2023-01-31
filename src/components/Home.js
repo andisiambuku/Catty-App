@@ -3,7 +3,7 @@ import Cats from "./Cats"
 
 function Home(){
     return(
-        <div>
+        <div className="p-5">
            <Cats />
         </div>
     );
