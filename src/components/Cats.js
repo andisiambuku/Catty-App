@@ -12,13 +12,14 @@ const Cats = () => {
   
   return (
     
-    <div className= "max-w-7xl columns-5 mx-auto space-y-4">
+    <div className= "max-w-7xl laptop:columns-5 mx-auto space-y-4">
       {cats.map((cat) => (
-        <div key={cat.id} className="overflow-hidden rounded-md">
+        <div key={cat.id} className="overflow-hidden bg-gray-300 rounded-md">
           <img  src={cat.url} alt="cat" />
         </div>
       ))}
     </div>
+    
     
     
   );
